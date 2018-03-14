@@ -1,7 +1,7 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core\Http;
-use BHOM\SMS\Aliyun\Core\Exception\ClientException;
+namespace BHOM\SMS\Core\Http;
+use BHOM\SMS\Core\Exception\ClientException;
 
 class HttpHelper
 {

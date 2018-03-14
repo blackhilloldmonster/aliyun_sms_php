@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d0b1435-0320-442d-9235-be5181fe4770" name="Default" comment="" />
+    <list default="true" id="7d0b1435-0320-442d-9235-be5181fe4770" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/QueryInterSmsIsoInfoRequest.php" afterPath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/QueryInterSmsIsoInfoRequest.php" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/QuerySendDetailsRequest.php" afterPath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/QuerySendDetailsRequest.php" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendBatchSmsRequest.php" afterPath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendBatchSmsRequest.php" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendInterSmsRequest.php" afterPath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendInterSmsRequest.php" />
+      <change beforePath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendSmsRequest.php" afterPath="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendSmsRequest.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/AcsRequest.php" afterPath="$PROJECT_DIR$/src/Core/AcsRequest.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/AcsResponse.php" afterPath="$PROJECT_DIR$/src/Core/AcsResponse.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Auth/Credential.php" afterPath="$PROJECT_DIR$/src/Core/Auth/Credential.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Auth/ISigner.php" afterPath="$PROJECT_DIR$/src/Core/Auth/ISigner.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Auth/ShaHmac1Signer.php" afterPath="$PROJECT_DIR$/src/Core/Auth/ShaHmac1Signer.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Auth/ShaHmac256Signer.php" afterPath="$PROJECT_DIR$/src/Core/Auth/ShaHmac256Signer.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Config.php" afterPath="$PROJECT_DIR$/src/Core/Config.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/DefaultAcsClient.php" afterPath="$PROJECT_DIR$/src/Core/DefaultAcsClient.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Exception/ClientException.php" afterPath="$PROJECT_DIR$/src/Core/Exception/ClientException.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Exception/ServerException.php" afterPath="$PROJECT_DIR$/src/Core/Exception/ServerException.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Http/HttpHelper.php" afterPath="$PROJECT_DIR$/src/Core/Http/HttpHelper.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Http/HttpResponse.php" afterPath="$PROJECT_DIR$/src/Core/Http/HttpResponse.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/IAcsClient.php" afterPath="$PROJECT_DIR$/src/Core/IAcsClient.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Profile/DefaultProfile.php" afterPath="$PROJECT_DIR$/src/Core/Profile/DefaultProfile.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Profile/IClientProfile.php" afterPath="$PROJECT_DIR$/src/Core/Profile/IClientProfile.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Regions/Endpoint.php" afterPath="$PROJECT_DIR$/src/Core/Regions/Endpoint.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Regions/EndpointConfig.php" afterPath="$PROJECT_DIR$/src/Core/Regions/EndpointConfig.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Regions/EndpointProvider.php" afterPath="$PROJECT_DIR$/src/Core/Regions/EndpointProvider.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/Regions/ProductDomain.php" afterPath="$PROJECT_DIR$/src/Core/Regions/ProductDomain.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/RoaAcsRequest.php" afterPath="$PROJECT_DIR$/src/Core/RoaAcsRequest.php" />
+      <change beforePath="$PROJECT_DIR$/src/Core/RpcAcsRequest.php" afterPath="$PROJECT_DIR$/src/Core/RpcAcsRequest.php" />
+      <change beforePath="$PROJECT_DIR$/src/SMS.php" afterPath="$PROJECT_DIR$/src/AliyunSMS.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +40,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SMS.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SMS.php">
+      <file leaf-file-name="AliyunSMS.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AliyunSMS.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="271">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
-                <element signature="e#141#189#0#PHP" expanded="true" />
+                <element signature="e#134#175#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultAcsClient.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Core/DefaultAcsClient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -28,9 +67,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>App\Plugin\Aliyun</find>
+      <find>BHOM\SMS\Aliyun</find>
     </findStrings>
     <replaceStrings>
       <replace>BHOM\SMS\Aliyun</replace>
+      <replace>BHOM\SMS</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -43,6 +84,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendSmsRequest.php" />
+        <option value="$PROJECT_DIR$/src/Core/DefaultAcsClient.php" />
         <option value="$PROJECT_DIR$/src/SMS.php" />
       </list>
     </option>
@@ -54,8 +96,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1802" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2092" />
     <option name="y" value="23" />
     <option name="width" value="1540" />
     <option name="height" value="1057" />
@@ -88,6 +130,42 @@
               <item name="aliyun_sms_php" type="b2602c69:ProjectViewProjectNode" />
               <item name="aliyun_sms_php" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aliyun_sms_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aliyun_sms_php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aliyun_sms_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aliyun_sms_php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sms" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aliyun_sms_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aliyun_sms_php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Request" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aliyun_sms_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aliyun_sms_php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Sms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Request" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="V20170525" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="aliyun_sms_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aliyun_sms_php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Core" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -124,18 +202,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520998859185</updated>
-      <workItem from="1520998860570" duration="955000" />
+      <workItem from="1520998860570" duration="1313000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="955000" />
+    <option name="totallyTimeSpent" value="1313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1802" y="23" width="1540" height="1057" extended-state="1" />
+    <frame x="2092" y="23" width="1540" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24966623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24966623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -182,14 +260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendSmsRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Api/Sms/Request/V20170525/QueryInterSmsIsoInfoRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -206,12 +276,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SMS.php">
+    <entry file="file://$PROJECT_DIR$/src/Api/Sms/Request/V20170525/SendSmsRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="588">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/DefaultAcsClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AliyunSMS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding>
-            <element signature="e#141#189#0#PHP" expanded="true" />
+            <element signature="e#134#175#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

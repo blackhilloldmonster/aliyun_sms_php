@@ -18,9 +18,9 @@
  * under the License.
  */
 
-namespace BHOM\SMS\Aliyun\Api\Sms\Request\V20170525;
+namespace BHOM\SMS\Api\Sms\Request\V20170525;
 
-use BHOM\SMS\Aliyun\Core\RpcAcsRequest;
+use BHOM\SMS\Core\RpcAcsRequest;
 
 class SendBatchSmsRequest extends RpcAcsRequest
 {

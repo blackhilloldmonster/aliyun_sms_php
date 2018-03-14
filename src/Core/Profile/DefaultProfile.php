@@ -1,12 +1,12 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core\Profile;
+namespace BHOM\SMS\Core\Profile;
 
-use BHOM\SMS\Aliyun\Core\Auth\Credential;
-use BHOM\SMS\Aliyun\Core\Auth\ShaHmac1Signer;
-use BHOM\SMS\Aliyun\Core\Regions\ProductDomain;
-use BHOM\SMS\Aliyun\Core\Regions\Endpoint;
-use BHOM\SMS\Aliyun\Core\Regions\EndpointProvider;
+use BHOM\SMS\Core\Auth\Credential;
+use BHOM\SMS\Core\Auth\ShaHmac1Signer;
+use BHOM\SMS\Core\Regions\ProductDomain;
+use BHOM\SMS\Core\Regions\Endpoint;
+use BHOM\SMS\Core\Regions\EndpointProvider;
 
 class DefaultProfile implements IClientProfile
 {

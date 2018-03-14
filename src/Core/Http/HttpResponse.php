@@ -1,6 +1,6 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core\Http;
+namespace BHOM\SMS\Core\Http;
 
 class HttpResponse
 {

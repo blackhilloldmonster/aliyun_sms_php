@@ -1,6 +1,6 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core\Profile;
+namespace BHOM\SMS\Core\Profile;
 
 interface IClientProfile
 {

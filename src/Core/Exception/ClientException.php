@@ -1,6 +1,6 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core\Exception;
+namespace BHOM\SMS\Core\Exception;
 
 class ClientException extends \Exception
 {

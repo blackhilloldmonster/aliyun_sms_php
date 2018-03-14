@@ -6,17 +6,17 @@
  * Time: 15:22
  */
 
-namespace BHOM\SMS\Aliyun;
+namespace BHOM\SMS;
 
-use BHOM\SMS\Aliyun\Core\Profile\DefaultProfile;
-use BHOM\SMS\Aliyun\Core\DefaultAcsClient;
-use BHOM\SMS\Aliyun\Api\Sms\Request\V20170525\SendSmsRequest;
-use BHOM\SMS\Aliyun\Api\Sms\Request\V20170525\SendBatchSmsRequest;
-use BHOM\SMS\Aliyun\Sms\Request\V20170525\QuerySendDetailsRequest;
+use BHOM\SMS\Core\Profile\DefaultProfile;
+use BHOM\SMS\Core\DefaultAcsClient;
+use BHOM\SMS\Api\Sms\Request\V20170525\SendSmsRequest;
+use BHOM\SMS\Api\Sms\Request\V20170525\SendBatchSmsRequest;
+use BHOM\SMS\Api\Sms\Request\V20170525\QuerySendDetailsRequest;
 // 加载区域结点配置
-\BHOM\SMS\Aliyun\Core\Config::load();
+\BHOM\SMS\Core\Config::load();
 
-class SMS
+class AliyunSMS
 {
     static $acsClient = null;
     protected $accessKeyId;

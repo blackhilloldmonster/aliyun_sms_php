@@ -1,8 +1,8 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core;
+namespace BHOM\SMS\Core;
 
-use BHOM\SMS\Aliyun\Core\Regions\EndpointConfig;
+use BHOM\SMS\Core\Regions\EndpointConfig;
 
 //config http proxy
 define('ENABLE_HTTP_PROXY', FALSE);

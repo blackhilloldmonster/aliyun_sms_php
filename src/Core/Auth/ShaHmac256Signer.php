@@ -1,6 +1,6 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core\Auth;
+namespace BHOM\SMS\Core\Auth;
 
 class ShaHmac256Signer implements ISigner
 {

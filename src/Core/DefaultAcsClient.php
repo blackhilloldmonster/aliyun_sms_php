@@ -1,10 +1,10 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core;
-use BHOM\SMS\Aliyun\Core\Exception\ClientException;
-use BHOM\SMS\Aliyun\Core\Exception\ServerException;
-use BHOM\SMS\Aliyun\Core\Regions\EndpointProvider;
-use BHOM\SMS\Aliyun\Core\Http\HttpHelper;
+namespace BHOM\SMS\Core;
+use BHOM\SMS\Core\Exception\ClientException;
+use BHOM\SMS\Core\Exception\ServerException;
+use BHOM\SMS\Core\Regions\EndpointProvider;
+use BHOM\SMS\Core\Http\HttpHelper;
 
 class DefaultAcsClient implements IAcsClient 
 {    

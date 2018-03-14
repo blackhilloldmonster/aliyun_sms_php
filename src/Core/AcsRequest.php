@@ -1,6 +1,6 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core;
+namespace BHOM\SMS\Core;
 
 abstract class AcsRequest
 {

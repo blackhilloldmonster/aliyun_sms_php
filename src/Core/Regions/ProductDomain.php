@@ -1,6 +1,6 @@
 <?php
 
-namespace BHOM\SMS\Aliyun\Core\Regions;
+namespace BHOM\SMS\Core\Regions;
 
 class ProductDomain
 {
